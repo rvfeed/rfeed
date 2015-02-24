@@ -207,6 +207,7 @@ img {
 }
 div.ccr-thumbnail{
 	margin-bottom: 5px;
+    height: 200px;
 }
 .ccr-thumbnail{
 	position: relative;
@@ -1090,7 +1091,7 @@ line-height: 40px;
 	margin-top: 5px;
 }
 #ccr-latest-post-gallery li{
-	width: 48.33%;
+	width: 32.33%;
 	float: left;
 	padding: 10px 0;
 }

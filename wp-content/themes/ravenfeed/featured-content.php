@@ -7,63 +7,72 @@
  * @since Twenty Fourteen 1.0
  */
 ?>
- 
-     
 
 
-            <section id="ccr-latest-post-gallery">
-                    <div class="ccr-gallery-ttile">
-                        <span></span> 
-                        <p>Latest Post Gallery</p>
-                    </div><!-- .ccr-gallery-ttile -->
-
-                    
+                <?php $args = array(
+                    'posts_per_page'   =>3,
+                    'offset'           => 0,
+                    'category'         => '10',
+                    'orderby'          => 'post_date',
+                    'order'            => 'DESC',
+                    'post_type'        => 'post',
+                    'post_status'      => 'publish',
+                    'suppress_filters' => true
+                );
+                $posts_health = get_posts( $args );?>
+                    <section id="ccr-latest-post-gallery">
+                        <div class="ccr-gallery-ttile">
+                            <span></span>
+                            <p>Health</p>
+                        </div><!-- .ccr-gallery-ttile -->
                         <ul class="ccr-latest-post">
+                            <?php foreach($posts_health as $post_health):
+                                if (has_post_thumbnail( $post_health->ID ) ): ?>
                             <li>
                                 <div class="ccr-thumbnail">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/images/thumbnail1.jpg" alt="Thumbnail 1">
-                                    <p><a href="#postlink">Read More</a></p>
+                                        <?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post_health->ID ), 'single-post-thumbnail' ); ?>
+                                    <img src="<?php echo $image[0]; ?>" alt="<?=$post_health->post_title?>" height="220"/>
+                                    <p><a href="<?php echo get_permalink( $post_health->ID); ?>">Read More</a></p>
                                 </div>
-                                <h4><a href="#postlink">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></h4>
+                                <h4><a href="<?php echo get_permalink( $post_health->ID); ?>"><?=$post_health->post_title?></a></h4>
                             </li>
-                            <li>
-                                <div class="ccr-thumbnail">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/images/thumbnail2.jpg" alt="Thumbnail 1">
-                                    <p><a href="#postlink">Read More</a></p>
-                                </div>
-                                <h4><a href="#postlink">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></h4>
-                            </li>
-                            <li>
-                                <div class="ccr-thumbnail">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/images/thumbnail3.jpg" alt="Thumbnail 1">
-                                    <p><a href="#postlink">Read More</a></p>
-                                </div>
-                                <h4><a href="#postlink">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></h4>
-                            </li>
-                            <li>
-                                <div class="ccr-thumbnail">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/images/thumbnail4.jpg" alt="Thumbnail 1">
-                                    <p><a href="#postlink">Read More</a></p>
-                                </div>
-                                <h4><a href="#postlink">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></h4>
-                            </li>
-                            <li>
-                                <div class="ccr-thumbnail">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/images/thumbnail5.jpg" alt="Thumbnail 1">
-                                    <p><a href="#postlink">Read More</a></p>
-                                </div>
-                                <h4><a href="#postlink">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></h4>
-                            </li>
-                            <li>
-                                <div class="ccr-thumbnail">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/images/thumbnail6.jpg" alt="Thumbnail 1">
-                                    <p><a href="#postlink">Read More</a></p>
-                                </div>
-                                <h4><a href="#postlink">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></h4>
-                            </li>
-                        </ul> <!-- /.ccr-latest-post -->
+                            <?php endif; ?>
+                            <?php endforeach;?>
+                        </ul><!-- /.ccr-latest-post -->
                     
                 </section> <!--  /#ccr-latest-post-gallery  -->
+                <?php $args = array(
+                    'posts_per_page'   =>3,
+                    'offset'           => 0,
+                    'category'         => '6',
+                    'orderby'          => 'post_date',
+                    'order'            => 'DESC',
+                    'post_type'        => 'post',
+                    'post_status'      => 'publish',
+                    'suppress_filters' => true
+                );
+                $posts_psych = get_posts( $args );?>
+            <section id="ccr-latest-post-gallery">
+                <div class="ccr-gallery-ttile">
+                    <span></span>
+                    <p>Psychology</p>
+                </div><!-- .ccr-gallery-ttile -->
+                <ul class="ccr-latest-post">
+                    <?php foreach($posts_psych as $post_psych):
+                        if (has_post_thumbnail( $post_health->ID ) ): ?>
+                            <li>
+                                <div class="ccr-thumbnail">
+                                    <?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post_psych->ID ), 'single-post-thumbnail' ); ?>
+                                    <img src="<?php echo $image[0]; ?>" alt="<?=$post_psych->post_title?>" height="220"/>
+                                    <p><a href="<?php echo get_permalink( $post_psych->ID); ?>">Read More</a></p>
+                                </div>
+                                <h4><a href="<?php echo get_permalink( $post_psych->ID); ?>"><?=$post_psych->post_title?></a></h4>
+                            </li>
+                        <?php endif; ?>
+                    <?php endforeach;?>
+                </ul><!-- /.ccr-latest-post -->
+
+</section> <!--  /#ccr-latest-post-gallery  -->
                 
                 <section class="bottom-border">
                 </section> <!-- /#bottom-border -->
