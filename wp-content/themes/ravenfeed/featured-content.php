@@ -26,11 +26,11 @@
                             <p>Health</p>
                         </div><!-- .ccr-gallery-ttile -->
                         <ul class="ccr-latest-post">
-                            <?php foreach($posts_health as $post_health):
+                            <?php foreach($posts_health as $post_health):  
                                 if (has_post_thumbnail( $post_health->ID ) ): ?>
                             <li>
                                 <div class="ccr-thumbnail">
-                                        <?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post_health->ID ), 'single-post-thumbnail' ); ?>
+                                        <?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post_health->ID ), 'medium' ); ?>
                                     <img src="<?php echo $image[0]; ?>" alt="<?=$post_health->post_title?>" height="220"/>
                                     <p><a href="<?php echo get_permalink( $post_health->ID); ?>">Read More</a></p>
                                 </div>
@@ -62,8 +62,8 @@
                         if (has_post_thumbnail( $post_health->ID ) ): ?>
                             <li>
                                 <div class="ccr-thumbnail">
-                                    <?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post_psych->ID ), 'single-post-thumbnail' ); ?>
-                                    <img src="<?php echo $image[0]; ?>" alt="<?=$post_psych->post_title?>" height="220"/>
+                                    <?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post_psych->ID ), 'medium' ); ?>
+                                    <img src="<?php echo $image[0]; ?>" alt="<?=$post_psych->post_title?>"/>
                                     <p><a href="<?php echo get_permalink( $post_psych->ID); ?>">Read More</a></p>
                                 </div>
                                 <h4><a href="<?php echo get_permalink( $post_psych->ID); ?>"><?=$post_psych->post_title?></a></h4>
