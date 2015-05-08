@@ -567,30 +567,35 @@ function ajax_action_stuff() {
 	);
 	$posts_health = get_posts( $args );
 	//update_post_meta($post_id, 'post_key', 'meta_value');
-	 foreach($posts_health as $post_health):
-		if (has_post_thumbnail( $post_health->ID ) ): ?>
-			<li>
-				<div class="imgleft">
-					<a href="<?php echo get_permalink( $post_health->ID); ?>">
-						<?php echo get_the_post_thumbnail($post_health->ID , 'feature-thumb');?>
-					</a>
-				</div>
-				<div class="textright">
-					<p><a href="<?php echo get_permalink( $post_health->ID); ?>"><?=$post_health->post_title?></a></p>
-					<div class="author-time" style>
-						<span id='time-img' class="ok"'></span>
-						<span class="ok"> <?php echo human_time_diff( get_the_time('U', $post_health->ID), current_time('timestamp') ) . ' ago by '; ?></span>
-						<?php $author_id = $post_health->post_author; ?>
-						<span id='auth-img' class="ok"></span>
-						<a class="ok" href="<?php echo get_author_posts_url( get_the_author_meta($post_health->ID ) ); ?>">
-							<?php echo the_author_meta( 'user_nicename' , $author_id ); ?> </a>
-						<span class="ok" id='comment-img'></span>
-						<a class="ok" href="<?php echo get_permalink($post_health->ID); ?>#disqus_thread">
-							<?php echo get_comments_number( $post_health->ID, '' ); ?> </a>
-					</div>
-			</li>
-		<?php endif; ?>
-	<?php endforeach;
+    if(count($posts_health) > 0){
+        foreach($posts_health as $post_health):
+            if (has_post_thumbnail( $post_health->ID ) ): ?>
+                <li>
+                    <div class="imgleft">
+                        <a href="<?php echo get_permalink( $post_health->ID); ?>">
+                            <?php echo get_the_post_thumbnail($post_health->ID , 'feature-thumb');?>
+                        </a>
+                    </div>
+                    <div class="textright">
+                        <p><a href="<?php echo get_permalink( $post_health->ID); ?>"><?=$post_health->post_title?></a></p>
+                        <div class="author-time" style>
+                            <span id='time-img' class="ok"'></span>
+                            <span class="ok"> <?php echo human_time_diff( get_the_time('U', $post_health->ID), current_time('timestamp') ) . ' ago by '; ?></span>
+                            <?php $author_id = $post_health->post_author; ?>
+                            <span id='auth-img' class="ok"></span>
+                            <a class="ok" href="<?php echo get_author_posts_url( get_the_author_meta($post_health->ID ) ); ?>">
+                                <?php echo the_author_meta( 'user_nicename' , $author_id ); ?> </a>
+                            <span class="ok" id='comment-img'></span>
+                            <a class="ok" href="<?php echo get_permalink($post_health->ID); ?>#disqus_thread">
+                                <?php echo get_comments_number( $post_health->ID, '' ); ?> </a>
+                        </div>
+                </li>
+            <?php endif; ?>
+        <?php endforeach;
+    }else{
+        echo "0";
+    }
+
 //	print_r($posts_health);
 //	echo $post_id;
 	die(); // stop executing script

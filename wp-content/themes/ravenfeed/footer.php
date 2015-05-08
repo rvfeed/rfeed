@@ -36,19 +36,44 @@
     <script src="<?php echo get_template_directory_uri(); ?>/js/custom.js"></script>
     <script type="text/javascript">
     $(document).ready(function(){
-
+        var offset = 10;
   $(window).bind('scroll', function() {
 
     var navHeight = 180; // custom nav height
+      var current_page    =   1;
+      var loading         =   false;
+      var oldscroll       =   0;
+var total_pages = $("#total_pages").val();
 
-    if($(window).scrollTop() > navHeight) {
-        $('#ccr-nav-main').addClass('goToTop').slideDown();
-        $('.social-bar').hide()
-    }
-    else
-        $('#ccr-nav-main').removeClass('goToTop');
+
+    ($(window).scrollTop() > navHeight) ? $('#ccr-nav-main').addClass('goToTop').slideDown() : $('#ccr-nav-main').removeClass('goToTop');
      ($(window).scrollTop() > navHeight) ? $('.et_social_sidebar_networks').show(500) : $('.et_social_sidebar_networks').hide(500);
       <?php  //echo urlencode(wp_get_shortlink());?>
+    //  alert($(window).scrollTop() );
+      if( $(window).scrollTop() > oldscroll ){
+        //  alert("k")//if we are scrolling down
+          if( ($(window).scrollTop() + $(window).height() >= $(document).height()  )  ) {
+              if( ! loading ){
+                  loading = true;
+                  $('.loading').show();
+                  $.post(ajax_object.ajaxurl, {
+                      action: 'ajax_action',
+                      offset: offset
+                  }, function(data) {
+                      if(data == "0"){
+                          $('.loading').hide();
+                      }else{
+                          $('#main-feed').append(data); // alerts 'ajax submitted'
+                          offset += 10;
+                          ///alert(offset);
+                          $('.loading').hide("")
+                          loading = false;
+                      }
+
+                  });
+              }
+          }
+      }
 
   });
         var l = $(".et_social_inline li.et_social_twitter a").attr("href");
@@ -74,7 +99,7 @@
 
 
 });
-    var offset = 10;
+/*    var offset = 10;
     $('.target').click(function () {
         $.post(ajax_object.ajaxurl, {
             action: 'ajax_action',
@@ -83,7 +108,7 @@
             $('#main-feed').append(data); // alerts 'ajax submitted'
             offset += 10;
         });
-    });
+    });*/
 // Only enable if the document has a long scroll bar
 // Note the window height + offset
 if ( ($(window).height() + 100) < $(document).height() ) {
@@ -104,7 +129,7 @@ if ( ($(window).height() + 100) < $(document).height() ) {
 
 
 </script>
-
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 	<?php wp_footer(); ?>
 </body>
 </html>

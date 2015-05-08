@@ -141,20 +141,23 @@
                     <img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" style = "width:250px" alt="Raven Feed Logo" />
                    </a>
             </div> <!-- / .navbar-header -->
-            <div class="pageHead1">
-                <p class="pageHeadText"></p>
+            <div class="add-space">
+                728 x 90 px Banner
+            </div><!-- / .adspace -->
+          <div class="pageHead1" style="display: none;">
+                   <p class="pageHeadText"></p>
                 <a id="googlePlus" class="smallSocialIcon" href="https://plus.google.com/u/0/b/113567368876177697816/113567368876177697816/posts" target="_blank"></a>
                 <a id="twitter" class="smallSocialIcon" href="https://twitter.com/ravnfeed" target="_blank"></a>
                 <a id="facebook" class="smallSocialIcon" href="https://www.facebook.com/ravenfeed" target="_blank"></a>
-               <!-- <div id="searchDiv">
+                <div id="searchDiv" style="clear:both">
                     <form method="get" action="<?php /*echo esc_url( home_url( '/' ) ); */?>">
                         <input id="search" name="s" placeholder="SEARCH" type="text">
                         <input value="" class="searchIcon" type="submit"> </form>
-                </div>-->
+                </div>
             </div>
-          <div class="add-space">
-                728 x 90 px Banner
-            </div><!-- / .adspace -->
+
+
+
 
         </div>    <!-- /.container -->
     </section> <!-- / #ccr-site-title -->
@@ -173,50 +176,21 @@
 
                 <div class="collapse navbar-collapse ccr-nav-main">
                 <?php wp_nav_menu( array( 'menu' => 'ravenwp', 'menu_class' => 'nav navbar-nav' ) ); ?>
-                    <!--<ul class="nav navbar-nav">
-                        <li><a class="active" href="index.html">Home</a></li>
-                        <li class="dropdown">
-                            <a href="#">Blog <i class="fa fa-caret-down"></i></a>
-                            <ul class="sub-menu">
-                                  <li><a href="blog.html">Blog 1</a></li>
-                                  <li><a href="blog-2.html">Blog 2</a></li>
-                                  <li><a href="blog-3.html">Blog 3</a></li>
-                            </ul><!-- /.sub-menu -->
-                        </li><!-- /.dropdown -->
-                        <!--<li><a href="single.html">Single</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                        <li class="dropdown"><a href="#">Category <i class="fa fa-caret-down"></i></a>
-                            <ul class="sub-menu">
-                                <li><a href="category-1.html">Category 1</a></li>
-                                <li><a href="category-2.html">Category 2</a></li>
-                                <li><a href="#">More <i class="fa fa-caret-right"></i></a>
-                                    <ul class="sub-menu-2">
-                                        <li><a href="#">Demo Link 1</a></li>
-                                        <li><a href="#">Demo Link 2</a></li>
-                                        
-                                        <li><a href="#">More <i class="fa fa-caret-right"></i></a>
-                                            <ul class="sub-menu-3">
-                                                <li><a href="#">Demo Link 1</a></li>
-                                                <li><a href="#">Demo Link 2</a></li>
-                                                <li><a href="#">Demo Link 3</a></li>
-                                            </ul><!-- /.sub-menu-3 -->
-                                   <!--     </li>
-                                        <li><a href="#">Demo Link 3</a></li>
-                                    </ul><!-- /.sub-menu-2 -->
-                               <!-- </li>
-                            </ul><!-- /.sub-menu -->
-                   <!--     </li><!--  /.dropdown -->
-                     <!--   <li><a href="404.html">404</a></li>
-                    </ul>--> <!-- /  .nav -->
+
                 </div><!-- /  .collapse .navbar-collapse  -->
-<div class="social-bar" style="margin-top: 12px">
+<div class="button-div">
+    <button type="submit"><i class="fa fa-search"></i></button></div>
+<?php if(!is_single()):?>
+<div class="socal-like" style="margin-top: 13px";>
+
                 <div class="fb-like topfblike" data-href="http://www.facebook.com/ravenFeed" data-layout="button_count"
                      data-layout="button_count" data-width="48" data-height="20"  data-action="like" data-show-faces="true"
-                     class="fb-like fb_iframe_widget" data-send="false" fb-xfbml-state="rendered"></div>
+                     class="fb-like fb_iframe_widget" data-send="false" fb-xfbml-state="rendered" ></div>
                 <a href="https://twitter.com/ravnfeed" class="twitter-follow-button" data-show-count="true" data-show-screen-name="false">Follow @ravnfeed</a>
                 <div class="g-plusone" data-size="medium" data-href="https://plus.google.com/113567368876177697816/posts"></div>
 
-</div>
+    </div>
+<?php endif;?>
                 <!--<div id="currentTime" class="pull-right current-time">+ Send a Raven-->
                  <!--   <i class="fa fa-clock-o"></i>-->
 

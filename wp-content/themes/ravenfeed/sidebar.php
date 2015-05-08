@@ -27,11 +27,17 @@
 ?>
    
   <aside id="ccr-right-section" class="col-md-4 ccr-home">
+
       <div class="sidebar-add-place">
           336x280 px
       </div>
       <aside class="connect-widget">
-
+          <div class="sh-side">
+              <a target="_blank" href="#" target="_blank">
+                  <img src="<?php echo get_template_directory_uri(); ?>/images/pen.png"  />
+                  Write an Article
+              </a>
+          </div>
         <div class="fb-side">
             <a target="_blank" href="http://www.facebook.com/ravenfeed" target="_blank">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/facebook.png"  />
