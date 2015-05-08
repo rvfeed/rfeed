@@ -1,0 +1,211 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: lessbuttons\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-09-18 08:23:46+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: POEditor.com\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: lessbuttons.php:182
+#@ lessbuttons
+msgid "Settings"
+msgstr "Pengaturan"
+
+#: lessbuttons.php:242
+#@ lessbuttons
+msgid "Couldn't find wp-content/plugins folder. Please make sure WordPress is installed correctly."
+msgstr "Tidak dapat menemukan wp-content / plugins folder. Pastikan WordPress terpasang dengan benar."
+
+#: lessbuttons.php:244
+#@ lessbuttons
+msgid "Can't find lessbuttons folder."
+msgstr "Tidak dapat menemukan folder lessbuttons."
+
+#: lessbuttons.php:250
+#@ lessbuttons
+msgid "Can't find folder:"
+msgstr "Tidak dapat menemukan folder:"
+
+#: lessbuttons.php:252
+#@ lessbuttons
+msgid "Can't find file:"
+msgstr "Tidak dapat menemukan file:"
+
+#: lessbuttons.php:267
+#@ lessbuttons
+msgid "Restored all settings to defaults."
+msgstr "Pulih semua pengaturan ke default."
+
+#: lessbuttons.php:315
+#@ lessbuttons
+msgid "Saved changes."
+msgstr "Menyimpan perubahan."
+
+#: lessbuttons.php:319
+#@ lessbuttons
+msgid "In your plugins/lessbuttons folder, you must have these files:"
+msgstr "Dalam folder plugins / lessbuttons Anda, Anda harus memiliki file-file ini:"
+
+#: lessbuttons.php:535
+#@ lessbuttons
+msgid "LessButtons Options"
+msgstr "LessButtons Pilihan"
+
+#: lessbuttons.php:543
+#@ lessbuttons
+msgid "Placement on website"
+msgstr "Penempatan di website"
+
+#: lessbuttons.php:548
+#@ lessbuttons
+msgid "Left"
+msgstr "Kiri"
+
+#: lessbuttons.php:552
+#@ lessbuttons
+msgid "Right"
+msgstr "Tepat"
+
+#: lessbuttons.php:556
+#: lessbuttons.php:592
+#@ lessbuttons
+msgid "Bottom"
+msgstr "Bawah"
+
+#: lessbuttons.php:563
+#@ lessbuttons
+msgid "Inside individual posts and pages"
+msgstr "Di dalam tiap posting dan halaman"
+
+#: lessbuttons.php:568
+#: lessbuttons.php:588
+#@ lessbuttons
+msgid "As rest"
+msgstr "Sebagai istirahat"
+
+#: lessbuttons.php:572
+#@ lessbuttons
+msgid "Before text"
+msgstr "Sebelum teks"
+
+#: lessbuttons.php:576
+#@ lessbuttons
+msgid "After text"
+msgstr "Setelah teks"
+
+#: lessbuttons.php:583
+#@ lessbuttons
+msgid "On mobile devices"
+msgstr "Pada perangkat seluler"
+
+#: lessbuttons.php:596
+#@ lessbuttons
+msgid "Hide"
+msgstr "Sembunyikan"
+
+#: lessbuttons.php:605
+#@ lessbuttons
+msgid "Display on:"
+msgstr "Tampilan pada:"
+
+#: lessbuttons.php:607
+#@ lessbuttons
+msgid "Front page of the blog"
+msgstr "Halaman depan blog"
+
+#: lessbuttons.php:609
+#@ lessbuttons
+msgid "Individual blog posts"
+msgstr "Posting blog individu"
+
+#: lessbuttons.php:611
+#@ lessbuttons
+msgid "Individual WordPress \"Pages\""
+msgstr "Individu WordPress \"Pages\""
+
+#: lessbuttons.php:613
+#@ lessbuttons
+msgid "Category archives"
+msgstr "Kategori arsip"
+
+#: lessbuttons.php:615
+#@ lessbuttons
+msgid "Date-based archives"
+msgstr "Arsip-Tanggal berbasis"
+
+#: lessbuttons.php:617
+#@ lessbuttons
+msgid "Search results"
+msgstr "Hasil Pencarian"
+
+#: lessbuttons.php:622
+#@ lessbuttons
+msgid "above or below other content"
+msgstr "atas atau di bawah konten lainnya"
+
+#: lessbuttons.php:629
+#: lessbuttons.php:666
+#@ lessbuttons
+msgid "Apply and Save"
+msgstr "Terapkan dan Simpan"
+
+#: lessbuttons.php:631
+#@ lessbuttons
+msgid "Display Buttons for Services"
+msgstr "Tampilan Tombol untuk Layanan"
+
+#: lessbuttons.php:647
+#@ lessbuttons
+msgid "Off"
+msgstr "Off"
+
+#: lessbuttons.php:651
+#@ lessbuttons
+msgid "On"
+msgstr "On"
+
+#: lessbuttons.php:656
+#@ lessbuttons
+msgid "Auto"
+msgstr "Auto"
+
+#: lessbuttons.php:667
+#@ lessbuttons
+msgid "Restore Built-in Defaults"
+msgstr "Kembalikan Built-in Default"
+
+#: lessbuttons.php:667
+#@ lessbuttons
+msgid "Are you shure want to restore built-in defaults?"
+msgstr "Apakah Anda Shure ingin mengembalikan built-in default?"
+
+#: lessbuttons.php:673
+#@ lessbuttons
+msgid "is copyright 2014 by LessButtons, released under the GNU GPL version 2 or later."
+msgstr "adalah hak cipta 2014 oleh LessButtons, dirilis di bawah GNU GPL versi 2 atau yang lebih baru."
+
+#: lessbuttons.php:642
+#: lessbuttons.php:656
+#@ lessbuttons
+msgid "title"
+msgstr "title"
+
+#: lessbuttons.php:656
+#@ lessbuttons
+msgid "for logged into"
+msgstr "untuk masuk ke"
+

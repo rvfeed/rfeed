@@ -1,0 +1,211 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: lessbuttons\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-09-30 09:21:02+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: POEditor.com\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: lessbuttons.php:182
+#@ lessbuttons
+msgid "Settings"
+msgstr "Подесувања"
+
+#: lessbuttons.php:242
+#@ lessbuttons
+msgid "Couldn't find wp-content/plugins folder. Please make sure WordPress is installed correctly."
+msgstr "Не можев да најдам WP-содржина / plugins директориумот. Ве молиме бидете сигурни дека WordPress е правилно инсталиран."
+
+#: lessbuttons.php:244
+#@ lessbuttons
+msgid "Can't find lessbuttons folder."
+msgstr "Не можат да најдат lessbuttons папка."
+
+#: lessbuttons.php:250
+#@ lessbuttons
+msgid "Can't find folder:"
+msgstr "Не можат да најдат папка:"
+
+#: lessbuttons.php:252
+#@ lessbuttons
+msgid "Can't find file:"
+msgstr "Не можат да најдат на датотеката:"
+
+#: lessbuttons.php:267
+#@ lessbuttons
+msgid "Restored all settings to defaults."
+msgstr "Реставрирана сите нагодувања на стандардно."
+
+#: lessbuttons.php:315
+#@ lessbuttons
+msgid "Saved changes."
+msgstr "Спаси промени."
+
+#: lessbuttons.php:319
+#@ lessbuttons
+msgid "In your plugins/lessbuttons folder, you must have these files:"
+msgstr "Во вашиот додатоци / lessbuttons папка, мора да имате овие датотеки:"
+
+#: lessbuttons.php:535
+#@ lessbuttons
+msgid "LessButtons Options"
+msgstr "LessButtons Опции"
+
+#: lessbuttons.php:543
+#@ lessbuttons
+msgid "Placement on website"
+msgstr "Поставување на веб страната"
+
+#: lessbuttons.php:548
+#@ lessbuttons
+msgid "Left"
+msgstr "Лево"
+
+#: lessbuttons.php:552
+#@ lessbuttons
+msgid "Right"
+msgstr "Право"
+
+#: lessbuttons.php:556
+#: lessbuttons.php:592
+#@ lessbuttons
+msgid "Bottom"
+msgstr "Дното"
+
+#: lessbuttons.php:563
+#@ lessbuttons
+msgid "Inside individual posts and pages"
+msgstr "Во поединечни мислења и страници"
+
+#: lessbuttons.php:568
+#: lessbuttons.php:588
+#@ lessbuttons
+msgid "As rest"
+msgstr "Како останатите"
+
+#: lessbuttons.php:572
+#@ lessbuttons
+msgid "Before text"
+msgstr "Пред текстот"
+
+#: lessbuttons.php:576
+#@ lessbuttons
+msgid "After text"
+msgstr "По текст"
+
+#: lessbuttons.php:583
+#@ lessbuttons
+msgid "On mobile devices"
+msgstr "На мобилни уреди"
+
+#: lessbuttons.php:596
+#@ lessbuttons
+msgid "Hide"
+msgstr "Скрие"
+
+#: lessbuttons.php:605
+#@ lessbuttons
+msgid "Display on:"
+msgstr "Приказ на:"
+
+#: lessbuttons.php:607
+#@ lessbuttons
+msgid "Front page of the blog"
+msgstr "Насловната страница на блогот"
+
+#: lessbuttons.php:609
+#@ lessbuttons
+msgid "Individual blog posts"
+msgstr "Индивидуални блог постови"
+
+#: lessbuttons.php:611
+#@ lessbuttons
+msgid "Individual WordPress \"Pages\""
+msgstr "Индивидуални WordPress \"Страници\""
+
+#: lessbuttons.php:613
+#@ lessbuttons
+msgid "Category archives"
+msgstr "Категорија Архива"
+
+#: lessbuttons.php:615
+#@ lessbuttons
+msgid "Date-based archives"
+msgstr "Датум базирани архиви"
+
+#: lessbuttons.php:617
+#@ lessbuttons
+msgid "Search results"
+msgstr "Резултати од пребарувањето"
+
+#: lessbuttons.php:622
+#@ lessbuttons
+msgid "above or below other content"
+msgstr "над или под друга содржина"
+
+#: lessbuttons.php:629
+#: lessbuttons.php:666
+#@ lessbuttons
+msgid "Apply and Save"
+msgstr "Применуваат и Save"
+
+#: lessbuttons.php:631
+#@ lessbuttons
+msgid "Display Buttons for Services"
+msgstr "Екран Копчиња за услуги"
+
+#: lessbuttons.php:647
+#@ lessbuttons
+msgid "Off"
+msgstr "Off"
+
+#: lessbuttons.php:651
+#@ lessbuttons
+msgid "On"
+msgstr "On"
+
+#: lessbuttons.php:656
+#@ lessbuttons
+msgid "Auto"
+msgstr "Auto"
+
+#: lessbuttons.php:667
+#@ lessbuttons
+msgid "Restore Built-in Defaults"
+msgstr "Врати Вграден Почетни"
+
+#: lessbuttons.php:667
+#@ lessbuttons
+msgid "Are you shure want to restore built-in defaults?"
+msgstr "Дали сте Shure сакаат да се врати вграден неплаќање?"
+
+#: lessbuttons.php:673
+#@ lessbuttons
+msgid "is copyright 2014 by LessButtons, released under the GNU GPL version 2 or later."
+msgstr "е авторските права 2014 од страна на LessButtons, објавен под GNU GPL верзија 2 или подоцна."
+
+#: lessbuttons.php:642
+#: lessbuttons.php:656
+#@ lessbuttons
+msgid "title"
+msgstr "титула"
+
+#: lessbuttons.php:656
+#@ lessbuttons
+msgid "for logged into"
+msgstr "за најавени во"
+

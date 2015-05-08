@@ -41,12 +41,26 @@
 	</header><!-- .entry-header -->
 
 	<?php if ( is_search() ) : ?>
+        <li>
+            <div class="imgleft">
+                <?php echo get_the_post_thumbnail($post_health->ID , 'feature-thumb');?>
+            </div>
+            <div class="textright">
+                <a href="<?php echo get_permalink(); ?>"><?php the_title()?></a>
+                <br/>
+                <?php the_excerpt(); ?>
+            </div> <span class="author-time">
+                                <?php echo human_time_diff( get_the_time('U'), current_time('timestamp') ) . ' ago by '; ?>
+                <?php the_author_posts_link() ?>
+                <a href="<?php the_permalink(); ?>#disqus_thread">
+                    <?php comments_number( '0 Comments', '1 Comment', '% Comments' ); ?>. </a>
+                        </span>
+        </li>
 	<div class="entry-summary">
 		<?php the_excerpt(); ?>
 	</div><!-- .entry-summary -->
 	<?php else : ?>
-	<div class="entry-content">
-        <?php twentyfourteen_post_thumbnail(); ?>
+	<div class="entry-content">      
         <br style="clear:both"/>
 		<?php
 			/* translators: %s: Name of current post */
@@ -55,15 +69,15 @@
 				the_title( '<span class="screen-reader-text">', '</span>', false )
 			) );
 
-			wp_link_pages( array(
+/*			wp_link_pages( array(
 				'before'      => '<div class="page-links"><span class="page-links-title">' . __( 'Pages:', 'twentyfourteen' ) . '</span>',
 				'after'       => '</div>',
 				'link_before' => '<span>',
 				'link_after'  => '</span>',
-			) );
+			) );*/
 		?>
 	</div><!-- .entry-content -->
 	<?php endif; ?>
 
-	<?php the_tags( '<footer class="entry-meta"><span class="tag-links">', '', '</span></footer>' ); ?>
+	<?php the_tags( '<footer class="entry-meta"><span class="tag-links">', ' ', '</span></footer>' ); ?>
 </article><!-- #post-## -->

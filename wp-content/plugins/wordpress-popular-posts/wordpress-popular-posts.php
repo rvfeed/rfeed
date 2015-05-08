@@ -468,7 +468,7 @@ if ( !class_exists('WordpressPopularPosts') ) {
 				} else {    ?>
                              <section id="sidebar-older-post">
                 <div class="ccr-gallery-ttile">
-                    <span></span> 
+                    <span></span>
                     <p><strong><?=$title?></strong></p>
                 </div> <!-- .ccr-gallery-ttile -->
 				

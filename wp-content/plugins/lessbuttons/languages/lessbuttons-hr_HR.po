@@ -1,0 +1,211 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: lessbuttons\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-09-21 07:58:40+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%100/10==1 ? 2 : n%10==1 ? 0 : (n+9)%10>3 ? 2 : 1;\n"
+"X-Generator: POEditor.com\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: lessbuttons.php:182
+#@ lessbuttons
+msgid "Settings"
+msgstr "Postavke"
+
+#: lessbuttons.php:242
+#@ lessbuttons
+msgid "Couldn't find wp-content/plugins folder. Please make sure WordPress is installed correctly."
+msgstr "Ne mogu pronaći wp-sadržaja / plugins mapu. Molimo pobrinite WordPress ispravno instaliran."
+
+#: lessbuttons.php:244
+#@ lessbuttons
+msgid "Can't find lessbuttons folder."
+msgstr "Ne mogu pronaći mapu lessbuttons."
+
+#: lessbuttons.php:250
+#@ lessbuttons
+msgid "Can't find folder:"
+msgstr "Ne mogu pronaći mapu:"
+
+#: lessbuttons.php:252
+#@ lessbuttons
+msgid "Can't find file:"
+msgstr "Ne mogu pronaći datoteku:"
+
+#: lessbuttons.php:267
+#@ lessbuttons
+msgid "Restored all settings to defaults."
+msgstr "Obnovljena svih postavki na tvorničke vrijednosti."
+
+#: lessbuttons.php:315
+#@ lessbuttons
+msgid "Saved changes."
+msgstr "Spremljene promjene."
+
+#: lessbuttons.php:319
+#@ lessbuttons
+msgid "In your plugins/lessbuttons folder, you must have these files:"
+msgstr "U svojoj mapi Plugins / lessbuttons, morate imati ove datoteke:"
+
+#: lessbuttons.php:535
+#@ lessbuttons
+msgid "LessButtons Options"
+msgstr "LessButtons Mogućnosti"
+
+#: lessbuttons.php:543
+#@ lessbuttons
+msgid "Placement on website"
+msgstr "Plasman na web stranici"
+
+#: lessbuttons.php:548
+#@ lessbuttons
+msgid "Left"
+msgstr "Lijevo"
+
+#: lessbuttons.php:552
+#@ lessbuttons
+msgid "Right"
+msgstr "Pravo"
+
+#: lessbuttons.php:556
+#: lessbuttons.php:592
+#@ lessbuttons
+msgid "Bottom"
+msgstr "Dno"
+
+#: lessbuttons.php:563
+#@ lessbuttons
+msgid "Inside individual posts and pages"
+msgstr "Unutar pojedinih postova i stranica"
+
+#: lessbuttons.php:568
+#: lessbuttons.php:588
+#@ lessbuttons
+msgid "As rest"
+msgstr "Kao ostatak"
+
+#: lessbuttons.php:572
+#@ lessbuttons
+msgid "Before text"
+msgstr "Prije teksta"
+
+#: lessbuttons.php:576
+#@ lessbuttons
+msgid "After text"
+msgstr "Nakon teksta"
+
+#: lessbuttons.php:583
+#@ lessbuttons
+msgid "On mobile devices"
+msgstr "Na mobilnim uređajima"
+
+#: lessbuttons.php:596
+#@ lessbuttons
+msgid "Hide"
+msgstr "Sakrij"
+
+#: lessbuttons.php:605
+#@ lessbuttons
+msgid "Display on:"
+msgstr "Prikaz na:"
+
+#: lessbuttons.php:607
+#@ lessbuttons
+msgid "Front page of the blog"
+msgstr "Naslovnoj stranici bloga"
+
+#: lessbuttons.php:609
+#@ lessbuttons
+msgid "Individual blog posts"
+msgstr "Pojedinačni blogu"
+
+#: lessbuttons.php:611
+#@ lessbuttons
+msgid "Individual WordPress \"Pages\""
+msgstr "Pojedini WordPress \"stranica\""
+
+#: lessbuttons.php:613
+#@ lessbuttons
+msgid "Category archives"
+msgstr "Kategorija Arhiva"
+
+#: lessbuttons.php:615
+#@ lessbuttons
+msgid "Date-based archives"
+msgstr "Datum bazi arhive"
+
+#: lessbuttons.php:617
+#@ lessbuttons
+msgid "Search results"
+msgstr "Rezultati pretraživanja"
+
+#: lessbuttons.php:622
+#@ lessbuttons
+msgid "above or below other content"
+msgstr "iznad ili ispod drugih sadržaja"
+
+#: lessbuttons.php:629
+#: lessbuttons.php:666
+#@ lessbuttons
+msgid "Apply and Save"
+msgstr "Nanesite i Save"
+
+#: lessbuttons.php:631
+#@ lessbuttons
+msgid "Display Buttons for Services"
+msgstr "Prikaz tipaka za usluge"
+
+#: lessbuttons.php:647
+#@ lessbuttons
+msgid "Off"
+msgstr "Off"
+
+#: lessbuttons.php:651
+#@ lessbuttons
+msgid "On"
+msgstr "On"
+
+#: lessbuttons.php:656
+#@ lessbuttons
+msgid "Auto"
+msgstr "Auto"
+
+#: lessbuttons.php:667
+#@ lessbuttons
+msgid "Restore Built-in Defaults"
+msgstr "Vraćanje Ugrađeni zadane"
+
+#: lessbuttons.php:667
+#@ lessbuttons
+msgid "Are you shure want to restore built-in defaults?"
+msgstr "Jeste li SHURE želite vratiti ugrađene zadane?"
+
+#: lessbuttons.php:673
+#@ lessbuttons
+msgid "is copyright 2014 by LessButtons, released under the GNU GPL version 2 or later."
+msgstr "je autorsko 2014 LessButtons, objavljen pod GNU GPL verzije 2 ili noviji."
+
+#: lessbuttons.php:642
+#: lessbuttons.php:656
+#@ lessbuttons
+msgid "title"
+msgstr "naslov"
+
+#: lessbuttons.php:656
+#@ lessbuttons
+msgid "for logged into"
+msgstr "za prijavljeni"
+

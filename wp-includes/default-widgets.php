@@ -714,8 +714,14 @@ class WP_Widget_Recent_Posts extends WP_Widget {
 		} ?>
 		<ul>
 		<?php while ( $r->have_posts() ) : $r->the_post(); ?>
-			<li>    <img src="<?php echo get_template_directory_uri(); ?>/images/sports-thumb-10.jpg" alt="Avatar">
+			<li>    <?php the_post_thumbnail( 'side-thumb' )?>
 				<a href="<?php the_permalink(); ?>"><?php get_the_title() ? the_title() : the_ID(); ?></a>
+                <div class="author-time" style>
+                    <span id="time-img" class="ok"></span>
+                               <span class="ok">
+                    <?php echo human_time_diff( get_the_time("U"), current_time("timestamp") ) . ' ago';?>
+                               </span>
+                    </div>
 			<?php if ( $show_date ) : ?>
 				<span class="post-date"><?php echo get_the_date(); ?></span>
 			<?php endif; ?>

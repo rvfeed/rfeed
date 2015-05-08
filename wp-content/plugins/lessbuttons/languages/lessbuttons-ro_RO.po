@@ -1,0 +1,211 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: lessbuttons\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-09-11 08:59:10+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: POEditor.com\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: lessbuttons.php:182
+#@ lessbuttons
+msgid "Settings"
+msgstr "Setări"
+
+#: lessbuttons.php:242
+#@ lessbuttons
+msgid "Couldn't find wp-content/plugins folder. Please make sure WordPress is installed correctly."
+msgstr "Nu am putut găsi wp-content / plugins dosar. Vă rugăm să asigurați-vă că WordPress este instalat corect."
+
+#: lessbuttons.php:244
+#@ lessbuttons
+msgid "Can't find lessbuttons folder."
+msgstr "Nu se poate găsi folder lessbuttons."
+
+#: lessbuttons.php:250
+#@ lessbuttons
+msgid "Can't find folder:"
+msgstr "Nu se poate găsi dosar:"
+
+#: lessbuttons.php:252
+#@ lessbuttons
+msgid "Can't find file:"
+msgstr "Nu se poate găsi fișier:"
+
+#: lessbuttons.php:267
+#@ lessbuttons
+msgid "Restored all settings to defaults."
+msgstr "Restaurat toate setările la valorile implicite."
+
+#: lessbuttons.php:315
+#@ lessbuttons
+msgid "Saved changes."
+msgstr "Modificările au fost salvate."
+
+#: lessbuttons.php:319
+#@ lessbuttons
+msgid "In your plugins/lessbuttons folder, you must have these files:"
+msgstr "În folderul plugins / lessbuttons, trebuie să aveți aceste fișiere:"
+
+#: lessbuttons.php:535
+#@ lessbuttons
+msgid "LessButtons Options"
+msgstr "Opțiuni LessButtons"
+
+#: lessbuttons.php:543
+#@ lessbuttons
+msgid "Placement on website"
+msgstr "Plasament pe site-ul"
+
+#: lessbuttons.php:548
+#@ lessbuttons
+msgid "Left"
+msgstr "Stânga"
+
+#: lessbuttons.php:552
+#@ lessbuttons
+msgid "Right"
+msgstr "Dreapta"
+
+#: lessbuttons.php:556
+#: lessbuttons.php:592
+#@ lessbuttons
+msgid "Bottom"
+msgstr "Bottom"
+
+#: lessbuttons.php:563
+#@ lessbuttons
+msgid "Inside individual posts and pages"
+msgstr "În interiorul mesaje individuale și pagini"
+
+#: lessbuttons.php:568
+#: lessbuttons.php:588
+#@ lessbuttons
+msgid "As rest"
+msgstr "Ca odihnă"
+
+#: lessbuttons.php:572
+#@ lessbuttons
+msgid "Before text"
+msgstr "Înainte de text"
+
+#: lessbuttons.php:576
+#@ lessbuttons
+msgid "After text"
+msgstr "După textul"
+
+#: lessbuttons.php:583
+#@ lessbuttons
+msgid "On mobile devices"
+msgstr "Pe dispozitive mobile"
+
+#: lessbuttons.php:596
+#@ lessbuttons
+msgid "Hide"
+msgstr "Ascunde"
+
+#: lessbuttons.php:605
+#@ lessbuttons
+msgid "Display on:"
+msgstr "Afișarea pe:"
+
+#: lessbuttons.php:607
+#@ lessbuttons
+msgid "Front page of the blog"
+msgstr "Prima pagina a blogului"
+
+#: lessbuttons.php:609
+#@ lessbuttons
+msgid "Individual blog posts"
+msgstr "Blog individuale"
+
+#: lessbuttons.php:611
+#@ lessbuttons
+msgid "Individual WordPress \"Pages\""
+msgstr "Individuale WordPress \"Pagini\""
+
+#: lessbuttons.php:613
+#@ lessbuttons
+msgid "Category archives"
+msgstr "Categorie arhive"
+
+#: lessbuttons.php:615
+#@ lessbuttons
+msgid "Date-based archives"
+msgstr "Arhive bazat pe date"
+
+#: lessbuttons.php:617
+#@ lessbuttons
+msgid "Search results"
+msgstr "Rezultatele căutării"
+
+#: lessbuttons.php:622
+#@ lessbuttons
+msgid "above or below other content"
+msgstr "de mai sus sau mai jos alte tipuri de conținut"
+
+#: lessbuttons.php:629
+#: lessbuttons.php:666
+#@ lessbuttons
+msgid "Apply and Save"
+msgstr "Aplicați și Salvare"
+
+#: lessbuttons.php:631
+#@ lessbuttons
+msgid "Display Buttons for Services"
+msgstr "Afiseaza Butoane pentru Servicii"
+
+#: lessbuttons.php:647
+#@ lessbuttons
+msgid "Off"
+msgstr "Off"
+
+#: lessbuttons.php:651
+#@ lessbuttons
+msgid "On"
+msgstr "On"
+
+#: lessbuttons.php:656
+#@ lessbuttons
+msgid "Auto"
+msgstr "Auto"
+
+#: lessbuttons.php:667
+#@ lessbuttons
+msgid "Restore Built-in Defaults"
+msgstr "Restore Defaults Built-in"
+
+#: lessbuttons.php:667
+#@ lessbuttons
+msgid "Are you shure want to restore built-in defaults?"
+msgstr "Ești SHURE doriți să restaurați setările implicite built-in?"
+
+#: lessbuttons.php:673
+#@ lessbuttons
+msgid "is copyright 2014 by LessButtons, released under the GNU GPL version 2 or later."
+msgstr "este drepturi de autor 2014 de LessButtons, eliberate în conformitate cu versiunea GNU GPL 2 sau mai târziu."
+
+#: lessbuttons.php:642
+#: lessbuttons.php:656
+#@ lessbuttons
+msgid "title"
+msgstr "titlu"
+
+#: lessbuttons.php:656
+#@ lessbuttons
+msgid "for logged into"
+msgstr "pentru conectat la"
+

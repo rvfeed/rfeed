@@ -1,0 +1,211 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: lessbuttons\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-09-11 08:56:20+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: POEditor.com\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: lessbuttons.php:182
+#@ lessbuttons
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: lessbuttons.php:242
+#@ lessbuttons
+msgid "Couldn't find wp-content/plugins folder. Please make sure WordPress is installed correctly."
+msgstr "Impossibile trovare wp-content / plugins della cartella. Si prega di assicurarsi che WordPress sia installato correttamente."
+
+#: lessbuttons.php:244
+#@ lessbuttons
+msgid "Can't find lessbuttons folder."
+msgstr "Impossibile trovare la cartella lessbuttons."
+
+#: lessbuttons.php:250
+#@ lessbuttons
+msgid "Can't find folder:"
+msgstr "Impossibile trovare la cartella:"
+
+#: lessbuttons.php:252
+#@ lessbuttons
+msgid "Can't find file:"
+msgstr "Impossibile trovare il file:"
+
+#: lessbuttons.php:267
+#@ lessbuttons
+msgid "Restored all settings to defaults."
+msgstr "Restaurato tutte le impostazioni ai valori predefiniti."
+
+#: lessbuttons.php:315
+#@ lessbuttons
+msgid "Saved changes."
+msgstr "Modifiche salvate."
+
+#: lessbuttons.php:319
+#@ lessbuttons
+msgid "In your plugins/lessbuttons folder, you must have these files:"
+msgstr "Nella cartella plugins / lessbuttons, è necessario disporre di questi file:"
+
+#: lessbuttons.php:535
+#@ lessbuttons
+msgid "LessButtons Options"
+msgstr "Opzioni LessButtons"
+
+#: lessbuttons.php:543
+#@ lessbuttons
+msgid "Placement on website"
+msgstr "Posizionamento sul sito"
+
+#: lessbuttons.php:548
+#@ lessbuttons
+msgid "Left"
+msgstr "Sinistra"
+
+#: lessbuttons.php:552
+#@ lessbuttons
+msgid "Right"
+msgstr "Diritto"
+
+#: lessbuttons.php:556
+#: lessbuttons.php:592
+#@ lessbuttons
+msgid "Bottom"
+msgstr "Fondo"
+
+#: lessbuttons.php:563
+#@ lessbuttons
+msgid "Inside individual posts and pages"
+msgstr "All'interno singoli post e le pagine"
+
+#: lessbuttons.php:568
+#: lessbuttons.php:588
+#@ lessbuttons
+msgid "As rest"
+msgstr "Come riposo"
+
+#: lessbuttons.php:572
+#@ lessbuttons
+msgid "Before text"
+msgstr "Prima di testo"
+
+#: lessbuttons.php:576
+#@ lessbuttons
+msgid "After text"
+msgstr "Dopo il testo"
+
+#: lessbuttons.php:583
+#@ lessbuttons
+msgid "On mobile devices"
+msgstr "Sui dispositivi mobili"
+
+#: lessbuttons.php:596
+#@ lessbuttons
+msgid "Hide"
+msgstr "Nascondere"
+
+#: lessbuttons.php:605
+#@ lessbuttons
+msgid "Display on:"
+msgstr "Visualizzare il:"
+
+#: lessbuttons.php:607
+#@ lessbuttons
+msgid "Front page of the blog"
+msgstr "Front page del blog"
+
+#: lessbuttons.php:609
+#@ lessbuttons
+msgid "Individual blog posts"
+msgstr "Post del blog individuali"
+
+#: lessbuttons.php:611
+#@ lessbuttons
+msgid "Individual WordPress \"Pages\""
+msgstr "I singoli WordPress \"Pagine\""
+
+#: lessbuttons.php:613
+#@ lessbuttons
+msgid "Category archives"
+msgstr "Archivi categoria"
+
+#: lessbuttons.php:615
+#@ lessbuttons
+msgid "Date-based archives"
+msgstr "Archivi su base cronologica"
+
+#: lessbuttons.php:617
+#@ lessbuttons
+msgid "Search results"
+msgstr "Risultati della ricerca"
+
+#: lessbuttons.php:622
+#@ lessbuttons
+msgid "above or below other content"
+msgstr "sopra o sotto altri contenuti"
+
+#: lessbuttons.php:629
+#: lessbuttons.php:666
+#@ lessbuttons
+msgid "Apply and Save"
+msgstr "Applica e Salva"
+
+#: lessbuttons.php:631
+#@ lessbuttons
+msgid "Display Buttons for Services"
+msgstr "Mostra pulsanti per servizi"
+
+#: lessbuttons.php:647
+#@ lessbuttons
+msgid "Off"
+msgstr "Off"
+
+#: lessbuttons.php:651
+#@ lessbuttons
+msgid "On"
+msgstr "On"
+
+#: lessbuttons.php:656
+#@ lessbuttons
+msgid "Auto"
+msgstr "Auto"
+
+#: lessbuttons.php:667
+#@ lessbuttons
+msgid "Restore Built-in Defaults"
+msgstr "Ripristina impostazioni predefinite incorporate"
+
+#: lessbuttons.php:667
+#@ lessbuttons
+msgid "Are you shure want to restore built-in defaults?"
+msgstr "Sei SHURE desidera ripristinare le impostazioni predefinite incorporate?"
+
+#: lessbuttons.php:673
+#@ lessbuttons
+msgid "is copyright 2014 by LessButtons, released under the GNU GPL version 2 or later."
+msgstr "è copyright 2014 LessButtons, rilasciato sotto la GNU GPL versione 2 o successiva."
+
+#: lessbuttons.php:642
+#: lessbuttons.php:656
+#@ lessbuttons
+msgid "title"
+msgstr "titolo"
+
+#: lessbuttons.php:656
+#@ lessbuttons
+msgid "for logged into"
+msgstr "per effettuato l'accesso"
+

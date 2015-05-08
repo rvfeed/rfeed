@@ -518,3 +518,122 @@ require get_template_directory() . '/inc/customizer.php';
 if ( ! class_exists( 'Featured_Content' ) && 'plugins.php' !== $GLOBALS['pagenow'] ) {
 	require get_template_directory() . '/inc/featured-content.php';
 }
+if ( function_exists( 'add_image_size' ) ) {
+//add_image_size( 'feature-thumb', 200, 150 ); //(cropped)
+add_image_size( 'side-thumb', 78, 78, true ); //(cropped)
+//add_image_size( 'cat-feature-thumb', 500, 300 ); //(cropped)
+add_image_size( 'banner-feature-thumb', 780, 250, true ); //(cropped)
+    add_image_size( 'front-side-thumb', 240, 120, true ); //(cropped)
+    add_image_size( 'right-feature-thumb', 441, 247 ); //(cropped)
+}
+add_filter('feature-thumb', 'my_image_sizes');
+function my_image_sizes($sizes) {
+$addsizes = array(
+"feature-thumb" => __( "Feature Thumb")
+);
+$newsizes = array_merge($sizes, $addsizes);
+return $newsizes;
+}
+
+function doctype_opengraph($output) {
+	return $output . '
+    xmlns:og="http://opengraphprotocol.org/schema/"
+    xmlns:fb="http://www.facebook.com/2008/fbml"';
+}
+add_filter('language_attributes', 'doctype_opengraph');
+
+
+function enqueue_scripts_styles_init() {
+	wp_enqueue_script( 'ajax-script', get_stylesheet_directory_uri().'/js/script.js', array('jquery'), 1.0 ); // jQuery will be included automatically
+	// get_template_directory_uri() . '/js/script.js'; // Inside a parent theme
+	// get_stylesheet_directory_uri() . '/js/script.js'; // Inside a child theme
+	// plugins_url( '/js/script.js', __FILE__ ); // Inside a plugin
+	wp_localize_script( 'ajax-script', 'ajax_object', array( 'ajaxurl' => admin_url( 'admin-ajax.php' ) ) ); // setting ajaxurl
+}
+add_action('init', 'enqueue_scripts_styles_init');
+
+function ajax_action_stuff() {
+	$offset = $_POST['offset']; // getting variables from ajax post
+	// doing ajax stuff
+	$args = array(
+		'posts_per_page'   =>10,
+		'offset'           => $offset,
+		//'post__not_in'     => $featured_post_ids,
+		'orderby'          => 'post_date',
+		'order'            => 'DESC',
+		'post_type'        => 'post',
+		'post_status'      => 'publish',
+		'suppress_filters' => true
+	);
+	$posts_health = get_posts( $args );
+	//update_post_meta($post_id, 'post_key', 'meta_value');
+	 foreach($posts_health as $post_health):
+		if (has_post_thumbnail( $post_health->ID ) ): ?>
+			<li>
+				<div class="imgleft">
+					<a href="<?php echo get_permalink( $post_health->ID); ?>">
+						<?php echo get_the_post_thumbnail($post_health->ID , 'feature-thumb');?>
+					</a>
+				</div>
+				<div class="textright">
+					<p><a href="<?php echo get_permalink( $post_health->ID); ?>"><?=$post_health->post_title?></a></p>
+					<div class="author-time" style>
+						<span id='time-img' class="ok"'></span>
+						<span class="ok"> <?php echo human_time_diff( get_the_time('U', $post_health->ID), current_time('timestamp') ) . ' ago by '; ?></span>
+						<?php $author_id = $post_health->post_author; ?>
+						<span id='auth-img' class="ok"></span>
+						<a class="ok" href="<?php echo get_author_posts_url( get_the_author_meta($post_health->ID ) ); ?>">
+							<?php echo the_author_meta( 'user_nicename' , $author_id ); ?> </a>
+						<span class="ok" id='comment-img'></span>
+						<a class="ok" href="<?php echo get_permalink($post_health->ID); ?>#disqus_thread">
+							<?php echo get_comments_number( $post_health->ID, '' ); ?> </a>
+					</div>
+			</li>
+		<?php endif; ?>
+	<?php endforeach;
+//	print_r($posts_health);
+//	echo $post_id;
+	die(); // stop executing script
+}
+add_action( 'wp_ajax_ajax_action', 'ajax_action_stuff' ); // ajax for logged in users
+add_action( 'wp_ajax_nopriv_ajax_action', 'ajax_action_stuff' ); // ajax for not logged in users
+
+
+function fb_opengraph() {
+	global $post;
+
+	if(is_single()) {
+		if(has_post_thumbnail($post->ID)) {
+			$img_src = wp_get_attachment_image_src(get_post_thumbnail_id( $post->ID ), 'medium');
+		} else {
+			$img_src = get_stylesheet_directory_uri() . '/img/opengraph_image.jpg';
+		}
+		if($excerpt = $post->post_excerpt) {
+			$excerpt = strip_tags($post->post_excerpt);
+			$excerpt = str_replace("", "'", $excerpt);
+		} else {
+			$excerpt = get_bloginfo('description');
+		}
+		?>
+
+		<meta property="og:title" content="<?php echo the_title(); ?>"/>
+		<meta property="og:description" content="<?php echo $excerpt; ?>"/>
+		<meta property="og:type" content="website"/>
+		<meta property="og:url" content="<?php echo the_permalink(); ?>"/>
+		<meta property="og:site_name" content="<?php echo get_bloginfo(); ?>"/>
+		<meta property="og:image" content="<?php echo $img_src[0]; ?>"/>
+		<meta name="twitter:card" content="summary_large_image"/>
+		<meta name="twitter:site" content="@ravnfeed"/>
+		<meta name="twitter:creator" content="@ravnfeed"/>
+		<meta name="twitter:domain" content="ravenfeed.com"/>
+		<meta name="twitter:title" content="<?php echo the_title(); ?>" />
+		<meta name="twitter:description" content="<?php echo $excerpt; ?>" />
+		<meta name="twitter:image:src" content="<?php echo $img_src[0]; ?>"/>
+
+
+	<?php
+	} else {
+		return;
+	}
+}
+add_action('wp_head', 'fb_opengraph', 5);

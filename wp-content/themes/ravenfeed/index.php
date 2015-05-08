@@ -17,7 +17,7 @@
 get_header(); ?>
 
 <div class="container">
- 
+
        <section id="ccr-left-section" class="col-md-8">
      <?php
     if ( is_front_page() ) {

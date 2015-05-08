@@ -1,0 +1,199 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: POEditor.com\n"
+"Project-Id-Version: lessbuttons\n"
+"Language: sl\n"
+"X-Textdomain-Support: yes\n"
+
+#@ lessbuttons
+#: lessbuttons.php:182
+msgid "Settings"
+msgstr "Nastavitve"
+
+#@ lessbuttons
+#: lessbuttons.php:242
+msgid "Couldn't find wp-content/plugins folder. Please make sure WordPress is installed correctly."
+msgstr "Ni bilo mogoče najti wp-content / plugins mapo. Prosimo, poskrbite, WordPress je pravilno nameščen."
+
+#@ lessbuttons
+#: lessbuttons.php:244
+msgid "Can't find lessbuttons folder."
+msgstr "Ne najdem mape lessbuttons."
+
+#@ lessbuttons
+#: lessbuttons.php:250
+msgid "Can't find folder:"
+msgstr "Ne najdem mape:"
+
+#@ lessbuttons
+#: lessbuttons.php:252
+msgid "Can't find file:"
+msgstr "Ne najdem datoteke:"
+
+#@ lessbuttons
+#: lessbuttons.php:267
+msgid "Restored all settings to defaults."
+msgstr "Obnoviti vse nastavitve na privzete vrednosti."
+
+#@ lessbuttons
+#: lessbuttons.php:315
+msgid "Saved changes."
+msgstr "Shranjeni spremembe."
+
+#@ lessbuttons
+#: lessbuttons.php:319
+msgid "In your plugins/lessbuttons folder, you must have these files:"
+msgstr "V mapo plugins / lessbuttons, morate imeti te datoteke:"
+
+#@ lessbuttons
+#: lessbuttons.php:535
+msgid "LessButtons Options"
+msgstr "LessButtons Options"
+
+#@ lessbuttons
+#: lessbuttons.php:543
+msgid "Placement on website"
+msgstr "Umestitev na spletni strani"
+
+#@ lessbuttons
+#: lessbuttons.php:548
+msgid "Left"
+msgstr "Levo"
+
+#@ lessbuttons
+#: lessbuttons.php:552
+msgid "Right"
+msgstr "Right"
+
+#@ lessbuttons
+#: lessbuttons.php:556
+#: lessbuttons.php:592
+msgid "Bottom"
+msgstr "Bottom"
+
+#@ lessbuttons
+#: lessbuttons.php:563
+msgid "Inside individual posts and pages"
+msgstr "Znotraj posameznih mest in strani"
+
+#@ lessbuttons
+#: lessbuttons.php:568
+#: lessbuttons.php:588
+msgid "As rest"
+msgstr "Kot preostali"
+
+#@ lessbuttons
+#: lessbuttons.php:572
+msgid "Before text"
+msgstr "Pred besedilom"
+
+#@ lessbuttons
+#: lessbuttons.php:576
+msgid "After text"
+msgstr "Po besedilu"
+
+#@ lessbuttons
+#: lessbuttons.php:583
+msgid "On mobile devices"
+msgstr "Na mobilnih napravah"
+
+#@ lessbuttons
+#: lessbuttons.php:596
+msgid "Hide"
+msgstr "Skrij"
+
+#@ lessbuttons
+#: lessbuttons.php:605
+msgid "Display on:"
+msgstr "Prikazati na:"
+
+#@ lessbuttons
+#: lessbuttons.php:607
+msgid "Front page of the blog"
+msgstr "Sprednja stran blog"
+
+#@ lessbuttons
+#: lessbuttons.php:609
+msgid "Individual blog posts"
+msgstr "Posamezne objave v blogu"
+
+#@ lessbuttons
+#: lessbuttons.php:611
+msgid "Individual WordPress \"Pages\""
+msgstr "Posamezne WordPress \"strani\""
+
+#@ lessbuttons
+#: lessbuttons.php:613
+msgid "Category archives"
+msgstr "Kategorija arhiv"
+
+#@ lessbuttons
+#: lessbuttons.php:615
+msgid "Date-based archives"
+msgstr "Na osnovi datuma arhivi"
+
+#@ lessbuttons
+#: lessbuttons.php:617
+msgid "Search results"
+msgstr "Rezultati iskanja"
+
+#@ lessbuttons
+#: lessbuttons.php:622
+msgid "above or below other content"
+msgstr "nad ali pod drugo vsebino"
+
+#@ lessbuttons
+#: lessbuttons.php:629
+#: lessbuttons.php:666
+msgid "Apply and Save"
+msgstr "Uporabi in Save"
+
+#@ lessbuttons
+#: lessbuttons.php:631
+msgid "Display Buttons for Services"
+msgstr "Display Gumbi za storitve"
+
+#@ lessbuttons
+#: lessbuttons.php:647
+msgid "Off"
+msgstr "Off"
+
+#@ lessbuttons
+#: lessbuttons.php:651
+msgid "On"
+msgstr "On"
+
+#@ lessbuttons
+#: lessbuttons.php:656
+msgid "Auto"
+msgstr "Auto"
+
+#@ lessbuttons
+#: lessbuttons.php:667
+msgid "Restore Built-in Defaults"
+msgstr "Obnovite vgrajeno privzeto"
+
+#@ lessbuttons
+#: lessbuttons.php:667
+msgid "Are you shure want to restore built-in defaults?"
+msgstr "Ali ste Shure želite obnoviti vgrajene privzete nastavitve?"
+
+#@ lessbuttons
+#: lessbuttons.php:673
+msgid "is copyright 2014 by LessButtons, released under the GNU GPL version 2 or later."
+msgstr "je copyright 2014 z LessButtons, objavljena pod GNU GPL 2 ali novejši."
+
+#@ lessbuttons
+#: lessbuttons.php:642
+#: lessbuttons.php:656
+msgid "title"
+msgstr "Naslov"
+
+#@ lessbuttons
+#: lessbuttons.php:656
+msgid "for logged into"
+msgstr "za prijavljeni"
+

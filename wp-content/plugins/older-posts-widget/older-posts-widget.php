@@ -82,7 +82,7 @@ class GHGPostWidget extends WP_Widget {
       foreach ($posts as $post)
       {
         wp_cache_add($post->ID, $post, 'posts');
-        $postArray[] = array('title' => stripslashes($post->post_title), 'url' => get_permalink($post->ID));
+        $postArray[] = array('title' => stripslashes($post->post_title), 'url' => get_permalink($post->ID), 'ID' => $post->ID);
       }
          ?>       
                    
@@ -90,10 +90,15 @@ class GHGPostWidget extends WP_Widget {
       foreach ($postArray as $post)
       { ?>
                 <li>
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/sports-thumb-10.jpg" alt="Avatar">
-                        <a href="#"><?php
-                                                 echo '<a href="'.$post['url'].'" title="'.$post['title'].'">'.$post['title'].'</a>';
-                                        ?></a>
+                         <?php echo get_the_post_thumbnail( $post['ID'], 'side-thumb' )?>
+                        <?php
+                                   echo '<a href="'.$post['url'].'" title="'.$post['title'].'">'.$post['title'].'</a>';
+                                echo '<div class="author-time" style>
+                                           <span id="time-img" class="ok"></span>
+                                           <span class="ok"> '
+                                .human_time_diff( get_the_time("U", $post['ID']), current_time("timestamp") ) . ' ago</span>'
+                                .'</div>'
+                         ?>
                             </li>
   
     <?php  }

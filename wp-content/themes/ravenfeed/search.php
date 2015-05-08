@@ -9,15 +9,15 @@
 
 get_header(); ?>
 
-	<section id="primary" class="content-area">
-		<div id="content" class="site-content" role="main">
-
+	    <div class="container">
+         <section id="ccr-left-section" class="col-md-8 search-feed" >
 			<?php if ( have_posts() ) : ?>
 
 			<header class="page-header">
 				<h1 class="page-title"><?php printf( __( 'Search Results for: %s', 'twentyfourteen' ), get_search_query() ); ?></h1>
 			</header><!-- .page-header -->
-
+                <br/>
+<ul>
 				<?php
 					// Start the Loop.
 					while ( have_posts() ) : the_post();
@@ -27,9 +27,12 @@ get_header(); ?>
 						 * use this in a child theme, then include a file called called content-___.php
 						 * (where ___ is the post format) and that will be used instead.
 						 */
-						get_template_part( 'content', get_post_format() );
+                        echo get_post_format();
+						get_template_part( 'search', "results" );
 
-					endwhile;
+					endwhile;?>
+                </ul>
+                <?php
 					// Previous/next post navigation.
 					twentyfourteen_paging_nav();
 
@@ -39,9 +42,10 @@ get_header(); ?>
 
 				endif;
 			?>
+ </section><!-- #main-content -->
+                <?php get_sidebar(  ); ?>
+         </div><!-- /.container -->
 
-		</div><!-- #content -->
-	</section><!-- #primary -->
 
 <?php
 get_sidebar( 'content' );
