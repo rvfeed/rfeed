@@ -3,8 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="96cdaf6a-1115-4857-933a-d0174338631c" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/ravenfeed/images/pen.png" afterPath="$PROJECT_DIR$/wp-content/themes/ravenfeed/images/pen.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.htaccess" afterPath="$PROJECT_DIR$/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/ravenfeed/404.php" afterPath="$PROJECT_DIR$/wp-content/themes/ravenfeed/404.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/ravenfeed/category.php" afterPath="$PROJECT_DIR$/wp-content/themes/ravenfeed/category.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/ravenfeed/featured-content.php" afterPath="$PROJECT_DIR$/wp-content/themes/ravenfeed/featured-content.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/ravenfeed/footer.php" afterPath="$PROJECT_DIR$/wp-content/themes/ravenfeed/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/ravenfeed/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/ravenfeed/functions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/ravenfeed/header.php" afterPath="$PROJECT_DIR$/wp-content/themes/ravenfeed/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/ravenfeed/sidebar.php" afterPath="$PROJECT_DIR$/wp-content/themes/ravenfeed/sidebar.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/ravenfeed/css/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/ravenfeed/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/user-submitted-posts/views/submission-form.php" afterPath="$PROJECT_DIR$/wp-content/plugins/user-submitted-posts/views/submission-form.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-config.php" afterPath="$PROJECT_DIR$/wp-config.php" />
     </list>
@@ -31,21 +40,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/ravenfeed/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.788162" vertical-offset="47092" max-vertical-offset="47464">
-              <caret line="2785" column="21" selection-start-line="2785" selection-start-column="21" selection-end-line="2785" selection-end-column="21" />
+            <state vertical-scroll-proportion="-6.62069" vertical-offset="43447" max-vertical-offset="48450">
+              <caret line="2567" column="17" selection-start-line="2567" selection-start-column="17" selection-end-line="2567" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wp-config.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-config.php">
+      <file leaf-file-name="category.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/ravenfeed/category.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="1241">
-              <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+            <state vertical-scroll-proportion="-0.7818182" vertical-offset="2286" max-vertical-offset="2992">
+              <caret line="145" column="86" selection-start-line="145" selection-start-column="86" selection-end-line="145" selection-end-column="86" />
               <folding />
             </state>
           </provider>
@@ -55,17 +64,7 @@
         <entry file="file://$PROJECT_DIR$/wp-admin/admin-ajax.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="1325" max-vertical-offset="1649">
-              <caret line="97" column="11" selection-start-line="97" selection-start-column="11" selection-end-line="97" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="category.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/ravenfeed/category.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2414" max-vertical-offset="2992">
-              <caret line="163" column="55" selection-start-line="163" selection-start-column="55" selection-end-line="163" selection-end-column="55" />
+              <caret line="89" column="59" selection-start-line="89" selection-start-column="59" selection-end-line="89" selection-end-column="59" />
               <folding />
             </state>
           </provider>
@@ -74,18 +73,8 @@
       <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/ravenfeed/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2754" max-vertical-offset="3570">
-              <caret line="180" column="4" selection-start-line="180" selection-start-column="4" selection-end-line="180" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sidebar.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/ravenfeed/sidebar.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="50" max-vertical-offset="867">
-              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+            <state vertical-scroll-proportion="-9.346154" vertical-offset="2902" max-vertical-offset="3774">
+              <caret line="193" column="16" selection-start-line="180" selection-start-column="0" selection-end-line="193" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -94,10 +83,10 @@
       <file leaf-file-name="featured-content.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/ravenfeed/featured-content.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1491" max-vertical-offset="2822">
-              <caret line="148" column="87" selection-start-line="148" selection-start-column="87" selection-end-line="148" selection-end-column="87" />
+            <state vertical-scroll-proportion="23.538462" vertical-offset="1581" max-vertical-offset="2839">
+              <caret line="57" column="17" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
               <folding>
-                <marker date="1431101891303" expanded="true" signature="1908:1958" placeholder="..." />
+                <marker date="1431155158949" expanded="true" signature="1908:1958" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -106,20 +95,20 @@
       <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/ravenfeed/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="833" max-vertical-offset="2244">
-              <caret line="67" column="12" selection-start-line="67" selection-start-column="12" selection-end-line="67" selection-end-column="12" />
+            <state vertical-scroll-proportion="-4.576923" vertical-offset="782" max-vertical-offset="2346">
+              <caret line="61" column="39" selection-start-line="61" selection-start-column="39" selection-end-line="61" selection-end-column="39" />
               <folding>
-                <marker date="1431101892017" expanded="true" signature="2474:2604" placeholder="{...}" />
+                <marker date="1431163669347" expanded="true" signature="2782:2912" placeholder="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/index.php">
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/ravenfeed/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.5080386" vertical-offset="8325" max-vertical-offset="10676">
+              <caret line="523" column="62" selection-start-line="523" selection-start-column="62" selection-end-line="523" selection-end-column="62" />
               <folding />
             </state>
           </provider>
@@ -142,14 +131,16 @@
         <option value="$PROJECT_DIR$/wp-content/plugins/yet-another-related-posts-plugin/includes/template_thumbnails.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/ravenfeed/index.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/recent-posts-widget-with-thumbnails.php" />
+        <option value="$PROJECT_DIR$/wp-config.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/ravenfeed/featured-content.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/ravenfeed/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/ravenfeed/footer.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/ravenfeed/featured-content.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/ravenfeed/category.php" />
-        <option value="$PROJECT_DIR$/wp-config.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/ravenfeed/sidebar.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/ravenfeed/header.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/ravenfeed/404.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/user-submitted-posts/views/submission-form.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/ravenfeed/css/style.css" />
+        <option value="$PROJECT_DIR$/wp-content/themes/ravenfeed/category.php" />
       </list>
     </option>
   </component>
@@ -296,6 +287,72 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wordpress" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wordpress" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wordpress" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wordpress" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user-submitted-posts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wordpress" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wordpress" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user-submitted-posts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -377,7 +434,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30214724" sideWeight="0.49914822" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3113497" sideWeight="0.49914822" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2602118" sideWeight="0.5008518" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33800352" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -413,28 +470,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/ravenfeed/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="18649" max-vertical-offset="35802">
-          <caret line="1097" column="28" selection-start-line="1097" selection-start-column="28" selection-end-line="1097" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/ravenfeed/single.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="697">
-          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/ravenfeed/content.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="697" max-vertical-offset="1139">
-          <caret line="49" column="31" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/ravenfeed/inc/template-tags.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="2992" max-vertical-offset="3808">
@@ -673,35 +708,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/ravenfeed/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="595">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/ravenfeed/content.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="1377">
           <caret line="25" column="0" selection-start-line="10" selection-start-column="2" selection-end-line="11" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/ravenfeed/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="9090" max-vertical-offset="10642">
-          <caret line="564" column="40" selection-start-line="564" selection-start-column="40" selection-end-line="564" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/ravenfeed/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="833" max-vertical-offset="2244">
-          <caret line="67" column="12" selection-start-line="67" selection-start-column="12" selection-end-line="67" selection-end-column="12" />
-          <folding>
-            <marker date="1431101892017" expanded="true" signature="2474:2604" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -712,52 +722,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/ravenfeed/featured-content.php">
+    <entry file="file://$PROJECT_DIR$/wp-config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1491" max-vertical-offset="2822">
-          <caret line="148" column="87" selection-start-line="148" selection-start-column="87" selection-end-line="148" selection-end-column="87" />
-          <folding>
-            <marker date="1431101891303" expanded="true" signature="1908:1958" placeholder="..." />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="1241">
+          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="350">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-admin/admin-ajax.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1325" max-vertical-offset="1649">
-          <caret line="97" column="11" selection-start-line="97" selection-start-column="11" selection-end-line="97" selection-end-column="11" />
+          <caret line="89" column="59" selection-start-line="89" selection-start-column="59" selection-end-line="89" selection-end-column="59" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/ravenfeed/category.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/user-submitted-posts/user-submitted-posts.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2414" max-vertical-offset="2992">
-          <caret line="163" column="55" selection-start-line="163" selection-start-column="55" selection-end-line="163" selection-end-column="55" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="24718">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-config.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/ravenfeed/404.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="1241">
-          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/ravenfeed/sidebar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="50" max-vertical-offset="867">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/ravenfeed/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2754" max-vertical-offset="3570">
-          <caret line="180" column="4" selection-start-line="180" selection-start-column="4" selection-end-line="180" selection-end-column="4" />
+        <state vertical-scroll-proportion="-6.076923" vertical-offset="250" max-vertical-offset="561">
+          <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
           <folding />
         </state>
       </provider>
@@ -770,18 +768,78 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/index.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/ravenfeed/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="350">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.4722222" vertical-offset="153" max-vertical-offset="595">
+          <caret line="31" column="3" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/ravenfeed/sidebar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37037036" vertical-offset="203" max-vertical-offset="867">
+          <caret line="37" column="34" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/ravenfeed/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.346154" vertical-offset="2902" max-vertical-offset="3774">
+          <caret line="193" column="16" selection-start-line="180" selection-start-column="0" selection-end-line="193" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/ravenfeed/featured-content.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="23.538462" vertical-offset="1581" max-vertical-offset="2839">
+          <caret line="57" column="17" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
+          <folding>
+            <marker date="1431155158949" expanded="true" signature="1908:1958" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/ravenfeed/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.788162" vertical-offset="47092" max-vertical-offset="47464">
-          <caret line="2785" column="21" selection-start-line="2785" selection-start-column="21" selection-end-line="2785" selection-end-column="21" />
+        <state vertical-scroll-proportion="-6.62069" vertical-offset="43447" max-vertical-offset="48450">
+          <caret line="2567" column="17" selection-start-line="2567" selection-start-column="17" selection-end-line="2567" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/user-submitted-posts/views/submission-form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16398714" vertical-offset="2601" max-vertical-offset="2992">
+          <caret line="156" column="33" selection-start-line="156" selection-start-column="33" selection-end-line="156" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/ravenfeed/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.576923" vertical-offset="782" max-vertical-offset="2346">
+          <caret line="61" column="39" selection-start-line="61" selection-start-column="39" selection-end-line="61" selection-end-column="39" />
+          <folding>
+            <marker date="1431163669347" expanded="true" signature="2782:2912" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/ravenfeed/category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.7818182" vertical-offset="2286" max-vertical-offset="2992">
+          <caret line="145" column="86" selection-start-line="145" selection-start-column="86" selection-end-line="145" selection-end-column="86" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/ravenfeed/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5080386" vertical-offset="8325" max-vertical-offset="10676">
+          <caret line="523" column="62" selection-start-line="523" selection-start-column="62" selection-end-line="523" selection-end-column="62" />
           <folding />
         </state>
       </provider>

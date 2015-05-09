@@ -149,7 +149,7 @@
                 <a id="googlePlus" class="smallSocialIcon" href="https://plus.google.com/u/0/b/113567368876177697816/113567368876177697816/posts" target="_blank"></a>
                 <a id="twitter" class="smallSocialIcon" href="https://twitter.com/ravnfeed" target="_blank"></a>
                 <a id="facebook" class="smallSocialIcon" href="https://www.facebook.com/ravenfeed" target="_blank"></a>
-                <div id="searchDiv" style="clear:both">
+                <div id="searchDiv">
                     <form method="get" action="<?php /*echo esc_url( home_url( '/' ) ); */?>">
                         <input id="search" name="s" placeholder="SEARCH" type="text">
                         <input value="" class="searchIcon" type="submit"> </form>
@@ -178,8 +178,20 @@
                 <?php wp_nav_menu( array( 'menu' => 'ravenwp', 'menu_class' => 'nav navbar-nav' ) ); ?>
 
                 </div><!-- /  .collapse .navbar-collapse  -->
-<div class="button-div">
-    <button type="submit"><i class="fa fa-search"></i></button></div>
+<div class="button-div dropdown">
+    <button type="submit" id="top-search" data-toggle="dropdown"><i class="fa fa-search"></i></button>
+
+    <ul class="dropdown-menu right-top-menu pull-right" role="menu" aria-labelledby="dropdownMenu1">
+        <form role="search" method="get" class="search-form" action="<?php echo site_url(); ?>">
+            <li>
+                <input type="search" id="search-box" name="s" required>
+                </li>
+        <li>
+                <button type="submit" id="srch-btn"> Search</button>
+
+            </li>
+        </form>
+    </ul> </div>
 <?php if(!is_single()):?>
 <div class="socal-like" style="margin-top: 13px";>
 

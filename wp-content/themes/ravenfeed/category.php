@@ -122,7 +122,7 @@ $featured_post_ids = array()
                         </section><!--  /#ccr-latest-post-gallery  -->
 
 
-                <section class="bottom-border"></section>
+                <!--<section class="bottom-border"></section>-->
                <?php $args = array(
     'posts_per_page'   =>20,
     'offset'           => 0,
@@ -143,7 +143,7 @@ $posts_health = get_posts( $args );
     if (has_post_thumbnail( $post_health->ID ) ): ?>
         <li>
             <div class="imgleft">
-                <?php echo get_the_post_thumbnail($post_health->ID , 'feature-thumb');?>
+                <?php echo get_the_post_thumbnail($post_health->ID , 'front-side-thumb');?>
             </div>
             <div class="textright">
 

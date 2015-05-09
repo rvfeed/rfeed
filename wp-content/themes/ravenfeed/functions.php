@@ -554,17 +554,19 @@ add_action('init', 'enqueue_scripts_styles_init');
 
 function ajax_action_stuff() {
 	$offset = $_POST['offset']; // getting variables from ajax post
+	$featured_post_ids = ($_POST['ex'] != "")? explode(',', $_POST['ex']):array();
 	// doing ajax stuff
 	$args = array(
-		'posts_per_page'   =>10,
+		'posts_per_page'   =>20,
 		'offset'           => $offset,
-		//'post__not_in'     => $featured_post_ids,
+		'post__not_in'     => $featured_post_ids,
 		'orderby'          => 'post_date',
 		'order'            => 'DESC',
 		'post_type'        => 'post',
 		'post_status'      => 'publish',
 		'suppress_filters' => true
 	);
+	//print_r($args);
 	$posts_health = get_posts( $args );
 	//update_post_meta($post_id, 'post_key', 'meta_value');
     if(count($posts_health) > 0){
@@ -579,7 +581,7 @@ function ajax_action_stuff() {
                     <div class="textright">
                         <p><a href="<?php echo get_permalink( $post_health->ID); ?>"><?=$post_health->post_title?></a></p>
                         <div class="author-time" style>
-                            <span id='time-img' class="ok"'></span>
+                            <span id='time-img' class="ok"></span>
                             <span class="ok"> <?php echo human_time_diff( get_the_time('U', $post_health->ID), current_time('timestamp') ) . ' ago by '; ?></span>
                             <?php $author_id = $post_health->post_author; ?>
                             <span id='auth-img' class="ok"></span>

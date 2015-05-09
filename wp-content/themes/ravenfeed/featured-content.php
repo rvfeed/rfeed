@@ -67,7 +67,7 @@ $posts_feature = get_posts( $args );?>
 
                 <section class="col-md-12">
                         <?php $args = array(
-                            'posts_per_page'   =>10,
+                            'posts_per_page'   =>20,
                             'offset'           => 0,
                             'post__not_in'     => $featured_post_ids,
                             'orderby'          => 'post_date',
@@ -105,6 +105,7 @@ $posts_feature = get_posts( $args );?>
                                     <?php endif; ?>
                                 <?php endforeach;?>
                             </ul><!-- /.ccr-latest-post -->
+                            <input type="hidden" id="noid" value="<?=implode($featured_post_ids, ',')?>"/>
                            <div>
                                 <div class="loading" ></div>
                                </div>

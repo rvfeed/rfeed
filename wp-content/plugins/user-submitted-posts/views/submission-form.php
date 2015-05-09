@@ -29,32 +29,32 @@ if ($usp_options['disable_required']) {
 		if (($usp_options['usp_name'] == 'show') && ($usp_options['usp_use_author'] == false)) { ?>
 		
 		<fieldset class="usp-name">
-			<label for="user-submitted-name"><?php _e('Your Name', 'usp'); ?></label>
-			<input name="user-submitted-name" type="text" value="" placeholder="<?php _e('Your Name', 'usp'); ?>"<?php echo $required; ?> class="usp-input">
+			<label for="user-submitted-name"><?php _e('Name', 'usp'); ?></label>
+			<input name="user-submitted-name" type="text" value="" <?php echo $required; ?> class="usp-input">
 		</fieldset>
 		<?php } if (($usp_options['usp_url'] == 'show') && ($usp_options['usp_use_url'] == false)) { ?>
 		
 		<fieldset class="usp-url">
-			<label for="user-submitted-url"><?php _e('Your URL', 'usp'); ?></label>
-			<input name="user-submitted-url" type="text" value="" placeholder="<?php _e('Your URL', 'usp'); ?>"<?php echo $required; ?> class="usp-input">
+			<label for="user-submitted-url"><?php _e('URL', 'usp'); ?></label>
+			<input name="user-submitted-url" type="text" value="" <?php echo $required; ?> class="usp-input">
 		</fieldset>
 		<?php } if ($usp_options['usp_email'] == 'show') { ?>
 		
 		<fieldset class="usp-email">
-			<label for="user-submitted-email"><?php _e('Your Email', 'usp'); ?></label>
-			<input name="user-submitted-email" type="text" value="" placeholder="<?php _e('Your Email', 'usp'); ?>"<?php echo $required; ?> class="usp-input">
+			<label for="user-submitted-email"><?php _e('Email', 'usp'); ?></label>
+			<input name="user-submitted-email" type="text" value="" <?php echo $required; ?> class="usp-input">
 		</fieldset>
 		<?php } if ($usp_options['usp_title'] == 'show') { ?>
 		
 		<fieldset class="usp-title">
 			<label for="user-submitted-title"><?php _e('Post Title', 'usp'); ?></label>
-			<input name="user-submitted-title" type="text" value="" placeholder="<?php _e('Post Title', 'usp'); ?>"<?php echo $required; ?> class="usp-input">
+			<input name="user-submitted-title" type="text" value="" <?php echo $required; ?> class="usp-input">
 		</fieldset>
 		<?php } if ($usp_options['usp_tags'] == 'show') { ?>
 		
 		<fieldset class="usp-tags">
 			<label for="user-submitted-tags"><?php _e('Post Tags', 'usp'); ?></label>
-			<input name="user-submitted-tags" type="text" value="" placeholder="<?php _e('Post Tags', 'usp'); ?>"<?php echo $required; ?> class="usp-input">
+			<input name="user-submitted-tags" type="text" value="" <?php echo $required; ?> class="usp-input">
 		</fieldset>
 		<?php } if ($usp_options['usp_captcha'] == 'show') { ?>
 		
@@ -159,7 +159,7 @@ if ($usp_options['disable_required']) {
 			<input class="usp-hidden exclude" type="hidden" name="user-submitted-category" value="<?php echo $usp_options['usp_use_cat_id']; ?>">
 			<?php } ?>
 			
-			<input class="exclude" name="user-submitted-post" id="user-submitted-post" type="submit" value="<?php _e('Submit Post', 'usp'); ?>">
+			<input class="exclude wpcf7-submit" name="user-submitted-post" id="user-submitted-post" type="submit" value="<?php _e('Submit Post', 'usp'); ?>">
 			<?php wp_nonce_field('usp-nonce', 'usp-nonce', false); ?>
 		</div>
 		<?php endif; ?>

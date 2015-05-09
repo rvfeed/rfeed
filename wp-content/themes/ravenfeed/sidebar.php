@@ -33,7 +33,7 @@
       </div>
       <aside class="connect-widget">
           <div class="sh-side">
-              <a target="_blank" href="#" target="_blank">
+              <a href="<?php echo site_url(); ?>/user-submitted-posts ">
                   <img src="<?php echo get_template_directory_uri(); ?>/images/pen.png"  />
                   Write an Article
               </a>
